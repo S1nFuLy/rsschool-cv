@@ -1,0 +1,42 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+.menu li a {
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: solid;
+    padding-right: 70px;
+    padding-left: 90px;
+    list-style-type: none;
+}
+a,a:visited {
+    color:black
+}
+.name {
+    text-align: center;
+}
+.photo {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.contacts li a {
+    text-decoration: none;
+    text-decoration: solid;
+}
